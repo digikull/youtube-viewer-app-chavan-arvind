@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.arvindchavan.youtubeviewer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <queries>
+13-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:31:5-35:15
+14        <intent>
+14-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:32:9-34:18
+15            <action android:name="com.google.android.youtube.api.service.START" />
+15-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:33:13-83
+15-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:33:21-80
+16        </intent>
+17    </queries>
+18
+19    <application
+19-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:7:5-29:19
+20        android:allowBackup="true"
+20-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] /Users/arvindchavan/.gradle/caches/transforms-3/96e7fe7072f6f2f0e94759043d2c830a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.YoutubeViewer" >
+29-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:13:9-51
+30        <activity
+30-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:14:9-17:52
+31            android:name="dev.arvindchavan.youtubeviewer.ui.VideoPlayer"
+31-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:15:13-43
+32            android:exported="true"
+32-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:16:13-36
+33            android:screenOrientation="landscape" />
+33-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:17:13-50
+34        <activity
+34-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:18:9-26:20
+35            android:name="dev.arvindchavan.youtubeviewer.ui.MainActivity"
+35-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:19:13-44
+36            android:exported="true" >
+36-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:20:13-36
+37            <intent-filter>
+37-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:22:17-69
+38-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:24:17-77
+40-->/Users/arvindchavan/AndroidDevelopmentDigiKull/Youtubeviewer/app/src/main/AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/arvindchavan/.gradle/caches/transforms-3/b1a020b783608d6a2dcf76878629456f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/arvindchavan/.gradle/caches/transforms-3/b1a020b783608d6a2dcf76878629456f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+46            android:authorities="dev.arvindchavan.youtubeviewer.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/arvindchavan/.gradle/caches/transforms-3/b1a020b783608d6a2dcf76878629456f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/arvindchavan/.gradle/caches/transforms-3/b1a020b783608d6a2dcf76878629456f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/arvindchavan/.gradle/caches/transforms-3/b1a020b783608d6a2dcf76878629456f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/arvindchavan/.gradle/caches/transforms-3/b1a020b783608d6a2dcf76878629456f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/arvindchavan/.gradle/caches/transforms-3/b1a020b783608d6a2dcf76878629456f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arvindchavan/.gradle/caches/transforms-3/3497c908aec04cfb6aad3271fe84c269/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arvindchavan/.gradle/caches/transforms-3/3497c908aec04cfb6aad3271fe84c269/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arvindchavan/.gradle/caches/transforms-3/3497c908aec04cfb6aad3271fe84c269/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

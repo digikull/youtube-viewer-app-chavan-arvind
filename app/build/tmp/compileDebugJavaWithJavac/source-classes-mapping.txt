@@ -1,0 +1,8 @@
+dev/arvindchavan/youtubeviewer/BuildConfig.java
+ dev.arvindchavan.youtubeviewer.BuildConfig
+dev/arvindchavan/youtubeviewer/databinding/RecyclerItemBinding.java
+ dev.arvindchavan.youtubeviewer.databinding.RecyclerItemBinding
+dev/arvindchavan/youtubeviewer/databinding/ActivityMainBinding.java
+ dev.arvindchavan.youtubeviewer.databinding.ActivityMainBinding
+dev/arvindchavan/youtubeviewer/databinding/ActivityVideoPlayerBinding.java
+ dev.arvindchavan.youtubeviewer.databinding.ActivityVideoPlayerBinding

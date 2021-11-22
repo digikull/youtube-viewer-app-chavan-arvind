@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.VideoPlayer">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/video_recycler"
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubePayerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/recycler_item" />
-
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
